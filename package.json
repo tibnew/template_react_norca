@@ -1,0 +1,32 @@
+{
+  "name": "react_tutorial_nocra",
+  "version": "1.0.0",
+  "description": "react with no cra",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve"
+  },
+  "author": "tibnew",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.1"
+  }
+}
